@@ -386,17 +386,17 @@ html, body {
     display : flex;
     /* position: absolute; */
     align-items: center;
-    color :white;
+    color :black;
     height: 50px;
-    border : 1px solid rgba(255,255,255,0.1);
+    border : 1px solid rgba(255,255,255,0.6);
     padding-left : 20px;
-    background-color:  rgba(100,50,140,0.9);
+    background-color :  rgba(255, 255, 255, 0.9);
     transition : all ease-in-out 0.1s;
   }
   #match_list li:hover{
     border : none;
-    color: rgba(100,50,140,1);
-    background-color :  rgba(255, 255, 255, 0.9);
+    color: white;
+    background-color:  rgba(50,50,50,0.9);
   }
   i:hover{
     opacity : 60%;
